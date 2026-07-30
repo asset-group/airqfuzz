@@ -2,6 +2,9 @@
 
 An emulation-based, directed fuzzing framework that automatically discovers vulnerabilities deep into the wireless protocol implementation of bare-metal firmware. We evaluate **aIRQFuzz** on two distinct targets (BLE and Zigbee) to demonstrate both its effectiveness and its extensibility. aIRQFuzz opens possibilities for emulation-based and stateful fuzzing of complex wireless protocols.
 
+As of today, 4 new CVEs in Nordic Zephyr stack have been assigned: *CVE-2025-12890, CVE-2025-65620, CVE-2025-70905* and *CVE-2025-65621* (seven more pending for BLE). 
+
+
 <p align="center">
   <img src="figs/Overview_Update_page-0001.jpg" alt="aIRQFuzz Overview and Design" width="800">
 </p>
@@ -586,7 +589,7 @@ cargo run --release --bin hoedur-arm -- \
 ```bibtex
 @article{airqfuzz,
   title={aIRQFuzz: QEMU Directed Firmware Protocol Fuzzer},
-  author={To Be Added},
+  author={Zewen Shang, Matheus E. Garbelini, Sudipta Chattopadhyay},
   journal={To Be Added},
   year={2026}
 }
