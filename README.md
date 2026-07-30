@@ -1,4 +1,4 @@
-# 🚀 aIRQFuzz (BLE) - QEMU Directed Firmware Protocol Fuzzer
+# 🚀 aIRQFuzz - Directed Firmware Protocol Fuzzer
 
 An emulation-based, directed fuzzing framework that automatically discovers vulnerabilities deep into the wireless protocol implementation of bare-metal firmware. We evaluate **aIRQFuzz** on two distinct targets (BLE and Zigbee) to demonstrate both its effectiveness and its extensibility. aIRQFuzz opens possibilities for emulation-based and stateful fuzzing of complex wireless protocols.
 
