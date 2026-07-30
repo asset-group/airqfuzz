@@ -2,7 +2,7 @@
 
 An emulation-based, directed fuzzing framework that automatically discovers vulnerabilities deep into the wireless protocol implementation of bare-metal firmware. We evaluate **aIRQFuzz** on two distinct targets (BLE and Zigbee) to demonstrate both its effectiveness and its extensibility. aIRQFuzz opens possibilities for emulation-based and stateful fuzzing of complex wireless protocols.
 
-As of today, 4 new CVEs in Nordic Zephyr stack have been assigned: *CVE-2025-12890, CVE-2025-65620, CVE-2025-70905* and *CVE-2025-65621* (seven more pending for BLE). 
+As of today, 4 new CVEs in Nordic Zephyr stack have been assigned: *CVE-2025-12890, CVE-2025-65620, CVE-2025-70905* and *CVE-2025-65621*. 
 
 
 <p align="center">
